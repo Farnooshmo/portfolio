@@ -54,9 +54,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Projects in details.
-          </p>
+
         </a>
 
         <a
@@ -66,14 +64,12 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Tech_stacks{" "}
+            Contact me{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Tech_stacks that I use or,I am learning at the moment.
-          </p>
+
         </a>
 
         <a
@@ -88,9 +84,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore my GitHub account.
-          </p>
+
         </a>
 
         <a
@@ -105,9 +99,6 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore my LinkedIn account.
-          </p>
         </a>
       </div>
     </main>
