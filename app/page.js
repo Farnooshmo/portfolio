@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,8 +7,15 @@ export default function Home() {
         <div>Farnoosh Moayeri</div>
       </div>
       <div>
-        <div>Full-Stack Developer</div>
+        <Image
+          src="/far.png"
+          width={200}
+          height={200}
+          alt="Farnoosh Moayeri"
+          className="display: block rounded-b rounded-full"
+        />
       </div>
+      <div className="items-center">Full-Stack Developer</div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
