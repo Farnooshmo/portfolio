@@ -1,11 +1,18 @@
+import Image from "next/image";
+
 export default function Projects() {
   return (
     <div>
       <p>Projects</p>
       <div>
-        <img src="/good.png" alt="Good-PR" />
-        <img src="/video.png" alt="Video-recommendation" />
-        <img src="/candy.png" alt="Candy-crush"/>
+        <Image src="/good.png" width={200} height={200} alt="Good-PR" />
+        <Image
+          src="/video.png"
+          width={200}
+          height={200}
+          alt="Video-recommendation"
+        />
+        <Image src="/candy.png" width={200} height={200} alt="Candy-crush" />
       </div>
     </div>
   );
