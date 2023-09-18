@@ -12,7 +12,7 @@ export default function Home() {
           width={200}
           height={200}
           alt="Farnoosh Moayeri"
-          className="display: block rounded-b rounded-full"
+          className="display: block  rounded-full"
         />
       </div>
       <div className="items-center">Full-Stack Developer</div>
