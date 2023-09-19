@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60% text-red-50 ">
       <div>
-        <div>Farnoosh Moayeri</div>
+        <div className="text-xl font-bold  mb-8">Farnoosh Moayeri</div>
       </div>
       <div>
         <Image
@@ -15,10 +15,10 @@ export default function Home() {
           className="display: block  rounded-full"
         />
       </div>
-      <h1 className="items-center text-pink-800 text-xl mb-8 md:text-white">
+      <h1 className="items-center text-pink-800 text-2xl font-semibold mb-8 md:text-red-50">
         Full-Stack Developer
       </h1>
-      <p>
+      <p className="whitespace-normal mb-8 text-base">
         As a dynamic and forward-thinking professional, I hold a Bachelor of
         Arts in Theatre and Performance and have gained valuable experience in
         education and administration. However, my true passion lies in the world
