@@ -15,7 +15,9 @@ export default function Home() {
           className="display: block  rounded-full"
         />
       </div>
-      <div className="items-center">Full-Stack Developer</div>
+      <h1 className="items-center text-pink-800 text-xl mb-8 md:text-white">
+        Full-Stack Developer
+      </h1>
       <p>
         As a dynamic and forward-thinking professional, I hold a Bachelor of
         Arts in Theatre and Performance and have gained valuable experience in
