@@ -16,6 +16,19 @@ export default function Home() {
         />
       </div>
       <div className="items-center">Full-Stack Developer</div>
+      <p>
+        As a dynamic and forward-thinking professional, I hold a Bachelor of
+        Arts in Theatre and Performance and have gained valuable experience in
+        education and administration. However, my true passion lies in the world
+        of Web Development. Recently, I have decided to take on the exciting
+        challenge of changing my career path by enrolling in an intensive course
+        that covers both front-end and back-end aspects of web development.
+        Through this comprehensive course, I have honed my skills and completed
+        successful projects, gaining a sharp eye for detail and a creative
+        mindset that make me a valuable asset to any team. I am now eager to
+        apply my knowledge and expertise professionally and contribute to the
+        dynamic and ever-evolving world of web development.{" "}
+      </p>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
@@ -40,7 +53,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Contact me{" "}
+            Contact{" "}
             <span className="inline-block  text-pink-800 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
