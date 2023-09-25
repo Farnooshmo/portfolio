@@ -4,7 +4,13 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <div className="bg-zinc-900">
-      <p className="mt-4 mb-4 ml-4 text-2xl">Projects</p>
+      <div className="flex justify-between ">
+        <h1 className="mt-8 ml-8 text-pink-100">PROJECTS</h1>
+
+        <Link href="/" className="mt-8 mr-8 text-pink-700">
+          <h1>BACK TO HOME</h1>
+        </Link>
+      </div>
       <div className="grid grid-rows justify-items-center ml-0 gap-4">
         <div className="grid fit-content justify-items-center align-middle md:flex md:flex-row content-evenly gap-8 border-solid border-2 border-pink-800  text-rose-50 rounded-lg ">
           <Link href="https://good-pr.vercel.app/">
