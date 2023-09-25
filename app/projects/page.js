@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <div className="bg-zinc-900">
-      <div className="flex justify-between ">
+      <div className="flex justify-between mb-4 ">
         <h1 className="mt-8 ml-8 text-2xl text-pink-100">PROJECTS</h1>
 
         <Link href="/" className="mt-8 mr-8 text-pink-100">
