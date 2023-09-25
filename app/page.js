@@ -8,8 +8,8 @@ export default function Home() {
       <div>
         <Image
           src="/far.png"
-          width={200}
-          height={200}
+          width={100}
+          height={100}
           alt="Farnoosh Moayeri"
           className="rounded-full row-span-3"
         />
