@@ -5,10 +5,10 @@ export default function Projects() {
   return (
     <div className="bg-zinc-900">
       <div className="flex justify-between ">
-        <h1 className="mt-8 ml-8 text-pink-100">PROJECTS</h1>
+        <h1 className="mt-8 ml-8 text-2xl text-pink-100">PROJECTS</h1>
 
-        <Link href="/" className="mt-8 mr-8 text-pink-700">
-          <h1>BACK TO HOME</h1>
+        <Link href="/" className="mt-8 mr-8 text-pink-100">
+          <h1 className="text-2xl">HOME</h1>
         </Link>
       </div>
       <div className="grid grid-rows justify-items-center ml-0 gap-4">
