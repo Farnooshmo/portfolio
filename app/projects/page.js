@@ -49,7 +49,7 @@ export default function Projects() {
           </h2>
         </div>
 
-        {/* <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
+        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
           <Link href="https://teamwork-candycrush.netlify.app/">
             <div className="w-96 h-48 relative">
               <Image
@@ -63,7 +63,7 @@ export default function Projects() {
 
           <h1 className="mt-2 text-xl text-rose-50">Teamwork Candy Crush</h1>
           <h2 className="mt-1 text-lg text-rose-50">React.JS, Node.JS, CSS</h2>
-        </div> */}
+        </div>
 
         {/* <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
           <Link href="https://london9-amazon-clone-50-react-project.netlify.app/">
