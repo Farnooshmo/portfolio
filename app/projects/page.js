@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <div className="bg-gradient-to-tr from-zinc-500 to-zinc-950 text-red-50">
+    <div className="bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-red-50">
       <div className="flex justify-between mb-4">
         <h1 className="mt-8 ml-8 text-2xl">PROJECTS</h1>
 
