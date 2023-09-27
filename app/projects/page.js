@@ -12,8 +12,8 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
+      <div className="grid grid-cols-1 mx-4 my-4 md:grid-cols-2 gap-4">
+        <div className="flex flex-col  items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
           <Link href="https://good-pr.vercel.app/">
             <div className="w-96 h-48 relative">
               <Image
@@ -25,7 +25,9 @@ export default function Projects() {
             </div>
           </Link>
 
-          <h1 className="mt-2 text-xl text-rose-50">Teamwork GitHub Pull Request Tracker</h1>
+          <h1 className="mt-2 text-xl text-rose-50">
+            Teamwork GitHub Pull Request Tracker
+          </h1>
           <h2 className="mt-1 text-lg text-rose-50">
             Next.JS, Tailwind CSS, Prisma
           </h2>
