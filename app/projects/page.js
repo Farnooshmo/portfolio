@@ -25,7 +25,7 @@ export default function Projects() {
             </div>
           </Link>
 
-          <h1 className="mt-2 text-xl text-rose-50">Teamwork GitHub Tracker</h1>
+          <h1 className="mt-2 text-xl text-rose-50">Teamwork GitHub Pull Request Tracker</h1>
           <h2 className="mt-1 text-lg text-rose-50">
             Next.JS, Tailwind CSS, Prisma
           </h2>
