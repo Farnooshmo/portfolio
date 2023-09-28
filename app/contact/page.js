@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 
 export default function Contact() {
@@ -7,6 +7,8 @@ export default function Contact() {
     email: "",
     message: "",
   });
+  const [successMessage, setSuccessMessage] = useState("");
+
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -21,6 +23,8 @@ export default function Contact() {
 
       if (response.ok) {
         console.log("Message sent successfully!");
+        setSuccessMessage("Message sent successfully!🚀");
+        setFormData({ name: "", email: "", message: "" });
       } else {
         console.error("Message sending failed.");
       }
