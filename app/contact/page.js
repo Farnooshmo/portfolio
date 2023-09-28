@@ -1,8 +1,11 @@
 export default function Contact() {
   return (
-    <div className="flex flex-col mx-4 items-center py-20 bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-zinc-700">
-      <form className="mt-8 w-full max-w-lg">
-        <div className="flex flex-wrap mb-6">
+    <div className="flex flex-col justify-items-center items-center py-20 bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-zinc-700">
+      <h1 className="text-red-50 text-xl hover:text-2xl">
+      Let's chat! Tell me about your project! 🤍
+      </h1>
+      <form className="mt-8 ml-8 w-full max-w-lg justify-items-center border-y-4 border-pink-800/50 hover:border-pink-800">
+        <div className="flex flex-wrap mb-6 mt-2 ">
           <label htmlFor="name" className="sr-only">
             Name
           </label>
@@ -40,7 +43,7 @@ export default function Contact() {
         </div>
         <button
           type="submit"
-          className="h-1/5 py-2 px-4 bg-blue-500 text-white rounded hover:bg-pink-800"
+          className="h-1/5 py-2 px-4 bg-blue-500 text-white rounded-3xl hover:bg-pink-800 mb-4"
         >
           Send Message
         </button>
