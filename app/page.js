@@ -22,7 +22,7 @@ export default function Home() {
         building full-stack web applications. As a recent graduate of a
         comprehensive software development training course, I am looking to
         bring my creative mindset and sharp eye for detail to a professional
-        engineering team.{" "}
+        engineering team.
       </p>
 
       <section></section>
@@ -49,7 +49,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Contact{" "}
+            Contact
             <span className="inline-block  text-pink-800 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -63,7 +63,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            GitHub{" "}
+            GitHub
             <span className="inline-block  text-pink-800 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -78,7 +78,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            LinkedIn{" "}
+            LinkedIn
             <span className="inline-block  text-pink-800 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
