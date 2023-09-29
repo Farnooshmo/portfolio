@@ -41,7 +41,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col justify-items-center items-center py-20 bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-zinc-700">
       <h1 className="text-red-50 text-xl hover:text-2xl">
-        Let's chat! Tell me about your project! 🤩
+        Get in touch!Tell me about your project!
       </h1>
       <form
         onSubmit={handleSubmit}
