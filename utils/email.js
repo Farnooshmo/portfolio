@@ -14,8 +14,8 @@ export async function sendEmail(data, recipientEmail) {
   }
 
   const message = {
-    from: process.env.EMAIL,
-    to: recipientEmail,
+    from: recipientEmail,
+    to: process.env.EMAIL,
     subject: "New message",
     text: JSON.stringify(data),
   };
