@@ -1,17 +1,17 @@
 // import Image from "next/image";
-import Navbar from "./components/navbar.js";
+// import Navbar from "./components/navbar.js";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60% text-red-50 ">
-      <Navbar className="mt-12 text-xl border-red-400" />
+      {/* <Navbar className="mt-12 text-xl border-red-400" /> */}
 
       <div className=" text-xl font-bold  mb-8">Farnoosh Moayeri</div>
 
       {/* <div className="flex w-100 h-100 object-center border-red-500 ">
         <Image src="/far.png" layout="fill" objectFit="cover" alt="Farnoosh" />
       </div> */}
-      <h1 className="items-center text-pink-800 text-2xl font-semibold mb-8 md:text-red-50">
+      <h1 className="items-center text-pink-800 text-2xl font-semibold mb-8 md:text-red-50  ">
         Full-Stack Developer
       </h1>
       <p className="whitespace-normal mb-8 text-base">
@@ -83,8 +83,11 @@ export default function Home() {
           </a>
         </div>
       </section> */}
-      <footer className="text-xs text-pink-800 mt-8 mb-0">
-        Made by Farnoosh, Oktober 2023
+      <footer>
+        <p className="text-xs text-pink-800 mt-8 mb-0">
+          Made by Farnoosh, October 2023
+        </p>
+        <div></div>
       </footer>
     </main>
   );
