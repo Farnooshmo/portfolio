@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <div className="bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-red-50">
+    <div className="bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-red-50 h-full">
       <div className="flex justify-between mb-4">
         <h1 className="mt-8 ml-8 text-2xl">PROJECTS</h1>
 
@@ -13,9 +13,9 @@ export default function Projects() {
       </div>
 
       <div className="grid grid-cols-1 mx-4 my-4 md:grid-cols-2 gap-4">
-        <div className="flex flex-col  items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
+        <div className="flex flex-col  items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4 hover:animate-pulse">
           <Link href="https://good-pr.vercel.app/">
-            <div className="w-96 h-48 relative">
+            <div className="w-96 h-48 overflow-hidden  relative">
               <Image
                 src="/good-pr-project.png"
                 layout="fill"
@@ -33,7 +33,7 @@ export default function Projects() {
           </h2>
         </div>
 
-        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
+        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4 hover:animate-pulse">
           <Link href="https://final-project-assessment.netlify.app/">
             <div className="w-96 h-48 relative">
               <Image
@@ -51,7 +51,7 @@ export default function Projects() {
           </h2>
         </div>
 
-        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
+        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4 hover:animate-pulse">
           <Link href="https://teamwork-candycrush.netlify.app/">
             <div className="w-96 h-48 relative">
               <Image
@@ -67,7 +67,7 @@ export default function Projects() {
           <h2 className="mt-1 text-lg text-rose-50">React.JS, Node.JS, CSS</h2>
         </div>
 
-        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4">
+        <div className="flex flex-col items-center bg-zinc-900 border-pink-800 border-2 rounded-lg p-4 hover:animate-pulse">
           <Link href="https://london9-amazon-clone-50-react-project.netlify.app/">
             <div className="w-96 h-48 relative">
               <Image
