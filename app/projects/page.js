@@ -5,11 +5,7 @@ export default function Projects() {
   return (
     <div className="bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-red-50 h-full">
       <div className="flex justify-between mb-4">
-        <h1 className="mt-8 ml-8 text-2xl">PROJECTS</h1>
-
-        <Link href="/" className="mt-8 mr-8">
-          <h1 className="text-2xl">HOME</h1>
-        </Link>
+        <h1 className="mt-8 ml-8 text-2xl"></h1>
       </div>
 
       <div className="grid grid-cols-1 mx-4 my-4 md:grid-cols-2 gap-4">
