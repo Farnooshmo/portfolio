@@ -1,11 +1,9 @@
-// import Image from "next/image";
-// import Navbar from "./components/navbar.js";
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60% text-red-50 ">
-      {/* <Navbar className="mt-12 text-xl border-red-400" /> */}
-
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60%  text-red-50 ">
       <div className=" text-xl font-bold  mb-8">Farnoosh Moayeri</div>
 
       {/* <div className="flex w-100 h-100 object-center border-red-500 ">
@@ -83,11 +81,29 @@ export default function Home() {
           </a>
         </div>
       </section> */}
-      <footer>
-        <p className="text-xs text-pink-800 mt-8 mb-0">
+      <footer className="flex flex-col items-center gap-x-2 mb-0">
+        <div className="flex flex-row justify-center ml-2 gap-4">
+          <div className="flex">
+            <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
+              <FaLinkedin
+                className="text-2xl hover:text-zinc-800 hover:bg-white  
+               hover:animate-bounce"
+              />{" "}
+            </Link>
+          </div>
+
+          <div className="flex">
+            <Link href="https://github.com/farnooshmo">
+              <FaGithub
+                className="text-2xl hover:text-zinc-800 hover:bg-white 
+               hover:animate-bounce hover:rounded-xl"
+              />
+            </Link>
+          </div>
+        </div>
+        <p className=" flex text-xs text-center text-red-50 mt-8 mb-0 border-t-4 border-pink-800">
           Made by Farnoosh, October 2023
         </p>
-        <div></div>
       </footer>
     </main>
   );
