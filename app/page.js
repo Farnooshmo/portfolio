@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60%  text-red-50 ">
-      <div className=" text-xl font-bold  mb-8">Farnoosh Moayeri</div>
+      {/* <div className=" text-xl font-bold  mb-8">Farnoosh Moayeri</div> */}
 
       {/* <div className="flex w-100 h-100 object-center border-red-500 ">
         <Image src="/far.png" layout="fill" objectFit="cover" alt="Farnoosh" />
       </div> */}
-      <h1 className="items-center text-pink-800 text-2xl font-semibold mb-8 md:text-red-50  ">
+      <h1 className="items-center text-pink-800 text-2xl font-semibold mb-8 md:text-red-50 hover:animate-pulse ">
         Full-Stack Developer
       </h1>
       <p className="whitespace-normal mb-8 text-base">
