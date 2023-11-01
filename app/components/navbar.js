@@ -36,7 +36,7 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="bg-gray-800 text-white px-4 py-3 flex items-center justify-between">
+    <nav className="bg-lime-700 text-white px-4 py-3 flex items-center justify-between">
       <Link href="/">
         Farnoos Moayeri
       </Link>
