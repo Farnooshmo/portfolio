@@ -1,11 +1,16 @@
+"use client"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
+import TextAnimation from "./components/TextAnimation";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60%  text-red-50 ">
+
       <h1 className="items-center text-pink-800 text-xl font-semibold mt-6 mb-4 md:text-red-50 hover:animate-pulse ">
-        Full-Stack Developer
+        {" "}
+        <TextAnimation />
+        Software Developer
       </h1>
       <p className="whitespace-normal mb-8 text-base text-center">
         I am a dynamic, forward-thinking software developer with experience
