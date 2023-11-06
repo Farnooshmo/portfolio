@@ -101,7 +101,7 @@ export default function Contact() {
         </div>
         <button
           type="submit"
-          className="basis-1/4 py-2 px-4 bg-blue-500 text-white rounded-3xl hover:bg-pink-800 mb-2"
+          className="basis-1/4 py-2 px-4 bg-pink-800 text-white rounded-3xl hover:bg-pink-700 mb-2"
         >
           Send Message
         </button>
