@@ -36,10 +36,10 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="bg-lime-700 text-white px-4 py-3 flex items-center justify-between">
-      <Link href="/">
+    <nav className="bg-zinc-900 text-white px-4 py-3 flex items-center justify-between border-dotted border-2 border-pink-100 rounded-md ">
+      {/* <Link href="/">
         Farnoos Moayeri
-      </Link>
+      </Link> */}
 
       {isMobile ? (
         <button
@@ -63,12 +63,12 @@ export default function Navbar() {
       )}
 
       {isOpen && (
-        <ul className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-white shadow-xl z-20">
+        <ul className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-zinc-400 rounded-md shadow-xl z-20 h-full">
           {links.map((link) => (
             <li
               key={link.title}
-              className="text-lg font-medium text-gray-800 px-6 py-2"
-              onClick={() => setIsOpen(!isOpen)}
+              className="text-lg font-medium text-pink-800 px-6 py-2"
+              onClick={() => setIsOpen(false)}
             >
               <Link href={link.url}>{link.title}</Link>
             </li>
