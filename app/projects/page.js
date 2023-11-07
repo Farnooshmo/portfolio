@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 export default function Projects() {
@@ -11,7 +10,7 @@ export default function Projects() {
           <div class="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
-              src="/good-pr-project.png"
+              src="/goodpr.png"
               width={240}
               height={120}
               alt="Good-PR Project"
@@ -39,7 +38,7 @@ export default function Projects() {
           <div class="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
-              src="/video-recommendation.png"
+              src="/video.png"
               width={240}
               height={120}
               alt="Video Recommendation"
@@ -66,7 +65,7 @@ export default function Projects() {
           <div class="h-40 bg-gray-400 rounded-lg ">
             {" "}
             <Image
-              src="/candy-project.png"
+              src="/candycrush.png"
               width={240}
               height={120}
               alt="Candy Crush"
@@ -96,7 +95,7 @@ export default function Projects() {
           <div class="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
-              src="/eshop-project.png"
+              src="/eshop.png"
               width={240}
               height={120}
               alt="E-shop"
@@ -108,8 +107,8 @@ export default function Projects() {
             <p class="text-sm">
               This e-commerce website built with React.js and Firebase, the app
               is easy to use, Secure, Fast and convenient.Use cases: Shopping
-              for personal needs, buying gifts for friends and family or Running a
-              small business{" "}
+              for personal needs, buying gifts for friends and family or Running
+              a small business{" "}
             </p>
             <a
               class="p-2 leading-none rounded font-medium mt-3 bg-pink-800 text-xs uppercase text-white hover:bg-pink-700 active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
