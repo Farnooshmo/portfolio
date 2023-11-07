@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 export default function AnimatedText() {
   const [loaded, setLoaded] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoaded(true);
-    }, 1000);
-  }, []);
+    useEffect(() => {
+      setTimeout(() => {
+        setLoaded(true);
+      }, 50);
+    }, []);
 
   const letters = [" ", "M", "o", "a", "y", "e", "r", "i"];
 
