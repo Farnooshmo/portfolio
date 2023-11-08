@@ -2,6 +2,8 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { FaFile } from "react-icons/fa";
+
 import Link from "next/link";
 import TextAnimation from "./components/TextAnimation";
 export default function Home() {
@@ -44,6 +46,14 @@ export default function Home() {
           <div className="flex">
             <Link href="https://formsubmit.co/el/dehuci">
               <FaEnvelope
+                className="text-2xl hover:text-zinc-800 hover:bg-white 
+               hover:animate-bounce hover:rounded-xl"
+              />
+            </Link>
+          </div>
+          <div className="flex">
+            <Link href="https://docs.google.com/document/d/1pYgGkQfO4wpeaESmL_OIzRFKdIWbL-ze/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true">
+              <FaFile
                 className="text-2xl hover:text-zinc-800 hover:bg-white 
                hover:animate-bounce hover:rounded-xl"
               />
