@@ -7,7 +7,7 @@ const links = [
   { title: "Home", url: "/" },
   // { title: "About", url: "/about" },
   { title: "Projects", url: "/projects" },
-  { title: "Contact", url: "/contact" },
+  // { title: "Contact", url: "/contact" },
 ];
 
 export default function Navbar() {
