@@ -3,15 +3,14 @@
 // import Link from "next/link";
 
 export default function Contact() {
-  return(
-
-          <div className="flex flex-col justify-items-center items-center py-20 bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-zinc-700">
-      <h1 className="text-red-50 text-xl hover:text-2xl">
-        Get in touch! Tell me about your project!
+  return (
+    <div className="flex flex-col justify-items-center items-center">
+      <h1 className="text-red-50 text-md md:text-xl text-center hover:text-pink-800">
+        Get in touch!
+        Tell me about your project!
       </h1>
-       <form className="mt-8 ml-8 w-full max-w-lg justify-items-center border-y-4 border-pink-800/50 hover:border-pink-800"></form>
     </div>
-  )
+  );
 }
 
 //   // const [name, setName] = useState("");
@@ -101,7 +100,7 @@ export default function Contact() {
 //   //   }
 //   //   console.log(name, email, subject, message);
 //   // };
-  // return (
+// return (
 //     <div className="flex flex-col justify-items-center items-center py-20 bg-gradient-to-tr from-zinc-600 to-zinc-950 h-screen text-zinc-700">
 //       <h1 className="text-red-50 text-xl hover:text-2xl">
 //         Get in touch! Tell me about your project!
