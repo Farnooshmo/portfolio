@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaFile } from "react-icons/fa";
+import Contact from "./contact/page";
 
 import Link from "next/link";
 import TextAnimation from "./components/TextAnimation";
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60%  text-red-50 ">
       <div
-        className="items-center text-pink-800 font-semibold mb-4 md:text-red-50
+        className="items-center text-center text-pink-800 font-light mb-4 md:text-red-50
         hover:animate-pulse "
       >
         <TextAnimation />
@@ -25,7 +26,8 @@ export default function Home() {
       </p>
 
       <footer className="flex flex-col items-center gap-x-2 mb-0">
-        <div className="flex flex-row justify-center ml-2 gap-4">
+        <Contact />
+        <div className="flex flex-row justify-center mt-4 ml-2 gap-4">
           <div className="flex">
             <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
               <FaLinkedin
