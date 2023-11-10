@@ -4,10 +4,12 @@
 
 export default function Contact() {
   return (
-    <div className="flex flex-col justify-items-center items-center">
+    <div
+      className="flex flex-col justify-items-center items-center "
+      id="contact"
+    >
       <h1 className="text-red-50 text-md md:text-xl text-center hover:text-pink-800">
-        Get in touch!
-        Tell me about your project!
+        Get in touch! Tell me about your project!
       </h1>
     </div>
   );
