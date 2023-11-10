@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60%  text-red-50 scroll-smooth ">
       {/* ----ABOUT ME ---- */}
+      <span className="sr-only">About me</span>
       <div
         className="items-center text-center  font-light mb-4 md:text-red-50
         hover:animate-pulse "
@@ -28,11 +29,14 @@ export default function Home() {
         engineering team.
       </p>
       {/* ---- PROJECTS ---- */}
+      <span className="sr-only">Projectss</span>
       <Projects />
 
       {/* ---- FOOTER ---- */}
       <footer className="flex flex-col items-center gap-x-2 mb-0">
-
+        <span className="sr-only">
+          Contact me via; LinkedIn, GitHub, Email,My CV
+        </span>
         <Contact />
         <div className="flex flex-row justify-center mt-4 ml-2 gap-4">
           {/* ----LinkedIn icon---- */}
