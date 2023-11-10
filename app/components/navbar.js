@@ -4,10 +4,10 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
 const links = [
-  { title: "Home", url: "/" },
-  // { title: "About", url: "/about" },
-  { title: "Projects", url: "/projects" },
-  // { title: "Contact", url: "/contact" },
+  // { title: "Home", url: "/" },
+  { title: "About", url: "#about" },
+  { title: "Projects", url: "#projects" },
+  { title: "Contact", url: "#contact" },
 ];
 
 export default function Navbar() {
@@ -63,11 +63,12 @@ export default function Navbar() {
       )}
 
       {isOpen && (
-        <ul className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-zinc-400 rounded-md shadow-xl z-20 h-full">
+        <ul className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-r from-pink-500 to-slate-700  rounded-md shadow-xl  bg-opacity-100 z-40 h-full">
           {links.map((link) => (
             <li
               key={link.title}
-              className="text-lg font-medium text-pink-800 px-6 py-2"
+              className="text-lg font-medium text-pink-50 underline underline-offset-8
+               px-6 py-2"
               onClick={() => setIsOpen(false)}
             >
               <Link href={link.url}>{link.title}</Link>
