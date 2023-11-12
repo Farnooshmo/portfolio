@@ -21,11 +21,11 @@ export default function Home() {
         <TextAnimation />
         Software Engineer
       </div>
-      <p className="whitespace-normal mb-8 text-base text-center text-zinc-600">
+      <p className="whitespace-normal mb-8 text-base text-center text-zinc-700">
         A dynamic, forward-thinking software developer with experience building
         full-stack web applications. As a recent graduate of a comprehensive
-        software development training course at Code Your Future, I am looking
-        to bring my creative mindset and sharp eye for detail to a professional
+        software development training course at CodeYourFuture, I am looking to
+        bring my creative mindset and sharp eye for detail to a professional
         engineering team.
       </p>
       {/* ---- PROJECTS ---- */}
