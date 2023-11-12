@@ -10,7 +10,7 @@ export default function Projects() {
       {/* <!-- Component Start --> */}
       <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 max-w-6xl">
         {/* <!-- project 1--> */}
-        <div className="flex flex-col bg-zinc-800 text-red-50 rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
           <div className="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
@@ -23,22 +23,22 @@ export default function Projects() {
           </div>
           <div className="flex flex-col items-start mt-4">
             <h4 className="text-xl font-semibold">Good PR</h4>
-            <p className="text-sm">
+            <p className="text-sm text-red-50">
               The Good PR App is a web application developed using Next.js,
-              Prisma and Tailwind CSS. The app designed to provide users with a
-              clear visualization of the progress and activity of Code Your
-              Future (CYF) trainees' final projects on GitHub.{" "}
+              Prisma and Tailwind CSS. The app is designed to provide users with
+              a clear visualisation of the progress and activity of team
+              members.{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3 bg-gradient-to-r from-slate-800 via-gray-500 to-pink-800  text-xs uppercase text-pink-100    focus:outline-none "
+              className="p-2 leading-none rounded font-medium mt-3 bg-gray-300 text-violet-700  text-xs uppercase   focus:outline-none "
               href="https://good-pr.vercel.app/"
             >
-              Demo
+              View project{" "}
             </Link>
           </div>
         </div>
         {/* <!-- project 2 --> */}
-        <div className="flex flex-col bg-zinc-800 text-red-50 rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
           <div className="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
@@ -51,21 +51,21 @@ export default function Projects() {
           </div>
           <div className="flex flex-col items-start mt-4">
             <h4 className="text-xl font-semibold">Video Recommendation</h4>
-            <p className="text-sm">
-              This is an application using React.js, Node.js, and PostgreSQL.
-              This app enables you to view, post, delete, watch, and
-              upvote/downvote YouTube videos directly on your website.{" "}
+            <p className="text-sm text-red-50">
+              This is an app using React.js, Node.js, and PostgreSQL. It enables
+              users to seamlessly view, post, delete, watch, and upvote/downvote
+              YouTube videos directly on the app.{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3 bg-gradient-to-r from-slate-800 via-gray-500 to-pink-800 text-xs uppercase text-white  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+              className="p-2 leading-none rounded font-medium mt-3 bg-gray-300 text-violet-700 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
               href="https://final-project-assessment.netlify.app/"
             >
-              Demo
+              View project{" "}
             </Link>
           </div>
         </div>
         {/* <!-- project 3 --> */}
-        <div className="flex flex-col bg-zinc-800 text-red-50  rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
           <div className="h-40 bg-gray-400 rounded-lg ">
             {" "}
             <Image
@@ -78,23 +78,22 @@ export default function Projects() {
           </div>
           <div className="flex flex-col items-start mt-4">
             <h4 className="text-xl font-semibold">Candy Crush</h4>
-            <p className="text-sm">
-              Candy Crush Saga for Desktop is a fun and engaging game that is
-              perfect for people of all ages. With its bright and colorful
-              graphics, simple gameplay, and multiple levels to challenge you,
-              it's sure to keep you entertained for hours on end. React.js,
-              Node.js, and CSS are technologies used for developing this app{" "}
+            <p className="text-sm text-red-50">
+              A fun and engaging (desktop) game, suitable for all. With bright,
+              colorful graphics, simple gameplay, and multiple levels, it's sure
+              to keep you entertained for hours. I utilised React.js, Node.js,
+              and CSS skills for developing this app!{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3 bg-gradient-to-r from-slate-800 via-gray-500 to-pink-800 text-xs uppercase text-white  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+              className="p-2 leading-none rounded font-medium mt-3 bg-gray-300 text-violet-700 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
               href="https://teamwork-candycrush.netlify.app/"
             >
-              Demo
+              View project{" "}
             </Link>
           </div>
         </div>
         {/* <!-- project 4 --> */}
-        <div className="flex flex-col bg-zinc-800 text-red-50  rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
           <div className="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
@@ -107,17 +106,16 @@ export default function Projects() {
           </div>
           <div className="flex flex-col items-start mt-4">
             <h4 className="text-xl font-semibold">E-shop</h4>
-            <p className="text-sm">
-              This e-commerce website built with React.js and Firebase, the app
-              is easy to use, Secure, Fast and convenient.Use cases: Shopping
-              for personal needs, buying gifts for friends and family or Running
-              a small business{" "}
+            <p className="text-sm text-red-50">
+              An E-commerce website built using React.js and Firebase. Secure,
+              fast and easy to use for maximum convenience, use it to shop for
+              yourself, friends and family or for running a small business!{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3 bg-gradient-to-r from-slate-800 via-gray-500 to-pink-800 text-xs uppercase text-white  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+              className="p-2 leading-none rounded font-medium mt-3  bg-gray-300 text-violet-700 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
               href="https://london9-amazon-clone-50-react-project.netlify.app/"
             >
-              Demo
+              View project{" "}
             </Link>
           </div>
         </div>
