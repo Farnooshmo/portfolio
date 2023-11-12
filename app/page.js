@@ -10,18 +10,18 @@ import Projects from "./projects/page";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-gradient-to-tr from-zinc-500  via-teal-1000 via-10% to-zinc-950 to-60%  text-red-50 scroll-smooth ">
+    <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-stone-300  text-purple-700 scroll-smooth ">
       {/* ----ABOUT ME ---- */}
       <span className="sr-only">About me</span>
       <div
-        className="items-center text-center  font-light mb-4 md:text-red-50
+        className="items-center text-center  font-medium mb-4 text-violet-800 
         hover:animate-pulse "
         id="about"
       >
         <TextAnimation />
-        Software Developer
+        Software Engineer
       </div>
-      <p className="whitespace-normal mb-8 text-base text-center">
+      <p className="whitespace-normal mb-8 text-base text-center text-zinc-600">
         A dynamic, forward-thinking software developer with experience building
         full-stack web applications. As a recent graduate of a comprehensive
         software development training course at Code Your Future, I am looking
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </div>
 
-        <p className=" flex text-xs text-center text-red-50 mt-8 mb-0 border-t-4 border-pink-800">
+        <p className=" flex text-xs text-center text-zinc-700 mt-8 mb-0 border-t-4 border-pink-400">
           Made by Farnoosh, 2023
         </p>
       </footer>
