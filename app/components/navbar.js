@@ -36,7 +36,7 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="bg-zinc-900 text-white px-4 py-3 flex items-center justify-between border-dotted border-2 border-pink-100 rounded-md ">
+    <nav className="bg-gradient-to-r from-stone-600 px-4 py-3 flex items-center justify-end border-double border-2 border-pink-400  text-violet-900  font-bold rounded-md ">
       {/* <Link href="/">
         Farnoos Moayeri
       </Link> */}
@@ -63,7 +63,7 @@ export default function Navbar() {
       )}
 
       {isOpen && (
-        <ul className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-r from-pink-500 to-slate-700  rounded-md shadow-xl  bg-opacity-100 z-40 h-full">
+        <ul className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-l from-pink-500 to-violet-700  rounded-md shadow-xl  bg-opacity-100 z-40 h-full">
           {links.map((link) => (
             <li
               key={link.title}
