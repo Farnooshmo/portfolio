@@ -30,7 +30,7 @@ export default function Projects() {
               members.{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3 bg-gray-300 text-violet-700  text-xs uppercase   focus:outline-none "
+              className="p-2 leading-none rounded font-medium mt-3 bg-gray-300 text-violet-700  text-xs uppercase  hover:cursor-progress focus:outline-none "
               href="https://good-pr.vercel.app/"
             >
               View project{" "}
@@ -46,7 +46,7 @@ export default function Projects() {
               width={240}
               height={120}
               alt="Video Recommendation"
-              className="fill-container rounded-lg w-full h-full"
+              className="fill-container rounded-lg w-full h-full "
             />
           </div>
           <div className="flex flex-col items-start mt-4">
@@ -57,7 +57,7 @@ export default function Projects() {
               YouTube videos directly on the app.{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3 bg-gray-300 text-violet-700 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+              className="p-2 leading-none rounded hover:cursor-progress font-medium mt-3 bg-gray-300 text-violet-700 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
               href="https://final-project-assessment.netlify.app/"
             >
               View project{" "}
@@ -85,7 +85,7 @@ export default function Projects() {
               and CSS skills for developing this app!{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3 bg-gray-300 text-violet-700 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+              className="p-2 leading-none rounded  hover:cursor-progress font-medium mt-3 bg-gray-300 text-violet-700 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
               href="https://teamwork-candycrush.netlify.app/"
             >
               View project{" "}
@@ -112,7 +112,7 @@ export default function Projects() {
               yourself, friends and family or for running a small business!{" "}
             </p>
             <Link
-              className="p-2 leading-none rounded font-medium mt-3  bg-gray-300 text-violet-700 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+              className="p-2 leading-none rounded hover:cursor-progress font-medium mt-3  bg-gray-300 text-violet-700 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
               href="https://london9-amazon-clone-50-react-project.netlify.app/"
             >
               View project{" "}
