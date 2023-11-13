@@ -22,7 +22,7 @@ export default function Home() {
         <TextAnimation />
         Software Engineer
       </div>
-      <div className="flex ">
+      <div className="flex mb-4">
         <Image
           src="/farnooshmoayeri.png"
           width={100}
