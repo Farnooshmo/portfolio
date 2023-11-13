@@ -32,10 +32,10 @@ export default function Home() {
         />
       </div>
       <p className="  whitespace-normal mb-8 text-base text-center text-zinc-700 hover:resize">
-        A dynamic, forward-thinking software developer with experience building
+        A dynamic, forward-thinking software engineer with experience building
         full-stack web applications. As a recent graduate of a comprehensive
         software development training course at
-        <Link href="https://codeyourfuture.io/" className="text-pink-500">
+        <Link href="https://codeyourfuture.io/" className="text-fuchsia-600">
           {" "}
           CodeYourFuture
         </Link>
