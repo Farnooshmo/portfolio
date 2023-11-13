@@ -47,7 +47,7 @@ export default function Navbar() {
 
         <div className="flex">
           <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
-            <FaLinkedin className="text-2xl text-pink-400 md:text-stone-300 drop-shadow-2xl  hover:text-violet-900" />{" "}
+            <FaLinkedin className="text-2xl text-stone-300 ring-4 ring-rose-300/80 md:text-stone-300 drop-shadow-2xl  hover:text-violet-900" />{" "}
           </Link>
         </div>
 
@@ -55,7 +55,7 @@ export default function Navbar() {
 
         <div className="flex">
           <Link href="https://github.com/farnooshmo">
-            <FaGithub className="text-2xl text-pink-400 md:text-stone-300 drop-shadow-2xl hover:text-violet-800 " />
+            <FaGithub className="text-2xl text-stone-300 ring-4 ring-rose-300/80 md:text-stone-300 drop-shadow-2xl hover:text-violet-800 " />
           </Link>
         </div>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
         <div className="flex">
           <Link href="https://formsubmit.co/el/dehuci">
             <FaEnvelope
-              className="text-2xl text-pink-400 md:text-stone-300 drop-shadow-2xl hover:text-violet-800  
+              className="text-2xl text-stone-300 ring-4 ring-rose-300/80 md:text-stone-300 drop-shadow-2xl hover:text-violet-800  
                 "
             />
           </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
         <div className="flex">
           <Link href="https://docs.google.com/document/d/1pYgGkQfO4wpeaESmL_OIzRFKdIWbL-ze/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true">
             <FaFile
-              className="text-2xl  text-pink-400 md:text-stone-300 drop-shadow-2xl hover:text-violet-800 
+              className="text-2xl  text-stone-300 ring-4 ring-rose-300/80 md:text-stone-300 drop-shadow-2xl hover:text-violet-800 
                "
             />
           </Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
 
       {isMobile ? (
         <button
-          className="rounded-md bg-gray-700 p-2 ml-2"
+          className=" p-2 ml-2"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
