@@ -40,7 +40,7 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="bg-gradient-to-r from-stone-600 px-4 py-3 flex items-center place-content-end   sm:gap-4 md:gap-20  border-double border-2 border-pink-400  text-violet-900  font-bold rounded-md ">
+    <nav className="bg-gradient-to-r from-stone-600 px-4 py-3 flex items-center place-content-end   sm:gap-4 md:gap-20  border-double border-2 border-pink-400  text-fuchsia-600  font-bold rounded-md ">
       {/* ----Icons on Navbar ---- */}
       <div className="flex items-center  gap-2 sm:mr-4 md:mr-44">
         {/* ----LinkedIn icon---- */}
