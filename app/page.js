@@ -49,11 +49,12 @@ export default function Home() {
         My projects
       </span>
       <FaArrowDown
-        className="text-4xl mt-4 text-rose-300 hover:text-rose-700 
+        className="text-4xl mt-4 text-rose-300 hover:text-yellow-500 
                animate-bounce "
       />
 
       <Projects />
+
 
       {/* ---- FOOTER ---- */}
       <footer className="flex flex-col items-center gap-x-2 mb-0">
@@ -66,7 +67,7 @@ export default function Home() {
           <div className="flex">
             <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
               <FaLinkedin
-                className="text-2xl hover:text-zinc-700  
+                className="text-2xl hover:text-yellow-400  
                hover:animate-bounce "
               />{" "}
             </Link>
@@ -75,7 +76,7 @@ export default function Home() {
           <div className="flex">
             <Link href="https://github.com/farnooshmo">
               <FaGithub
-                className="text-2xl hover:text-zinc-700 
+                className="text-2xl hover:text-yellow-400 
                hover:animate-bounce "
               />
             </Link>
@@ -84,7 +85,7 @@ export default function Home() {
           <div className="flex">
             <Link href="https://formsubmit.co/el/dehuci">
               <FaEnvelope
-                className="text-2xl hover:text-zinc-700 
+                className="text-2xl hover:text-yellow-400 
                hover:animate-bounce "
               />
             </Link>
@@ -93,14 +94,14 @@ export default function Home() {
           <div className="flex">
             <Link href="https://docs.google.com/document/d/1pYgGkQfO4wpeaESmL_OIzRFKdIWbL-ze/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true">
               <FaFile
-                className="text-2xl hover:text-zinc-700  
+                className="text-2xl hover:text-yellow-400  
                hover:animate-bounce"
               />
             </Link>
           </div>
         </div>
 
-        <p className=" flex text-xs text-center text-zinc-700 mt-8 mb-0 border-t-4 border-pink-400">
+        <p className=" flex text-xs text-center text-stone-900 mt-8 mb-0 border-t-4 border-pink-400">
           Made by Farnoosh, 2023
         </p>
       </footer>
