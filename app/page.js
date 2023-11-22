@@ -58,7 +58,7 @@ export default function Home() {
       {/* ---- FOOTER ---- */}
       <footer className="flex flex-col items-center gap-x-2 mb-0">
         <span className="sr-only">
-          Contact me via; LinkedIn, GitHub, Email,My CV
+          Contact me via; LinkedIn, GitHub, Email
         </span>
         <Contact />
         <div className="flex flex-row justify-center mt-4 ml-2 gap-4">
@@ -90,14 +90,14 @@ export default function Home() {
             </Link>
           </div>
           {/* ----CV icon---- */}
-          <div className="flex">
+          {/* <div className="flex">
             <Link href="https://docs.google.com/document/d/1pYgGkQfO4wpeaESmL_OIzRFKdIWbL-ze/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true">
               <FaFile
                 className="text-2xl hover:text-zinc-700  
                hover:animate-bounce"
               />
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <p className=" flex text-xs text-center text-stone-900 mt-8 mb-0 border-t-4 border-pink-400">
