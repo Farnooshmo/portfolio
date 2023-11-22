@@ -59,42 +59,47 @@ export default function Navbar() {
   return (
     <nav className="bg-gradient-to-r from-stone-600 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  border-double border-2 border-pink-400  text-fuchsia-600  font-bold rounded-md ">
       {/* ----Icons on Navbar ---- */}
-      <div className="flex items-center  gap-2 sm:mr-4 md:mr-44">
-        {/* ----LinkedIn icon---- */}
-        <div className="flex">
+      {/* <div className="flex items-center  gap-2 sm:mr-4 md:mr-44"> */}
+      {/* ----LinkedIn icon---- */}
+      {/* <div className="flex">
           <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
-            <FaLinkedin className="text-2xl text-violet-700 drop-shadow-2xl  hover:text-yellow-400" />
+            <FaLinkedin className="text-2xl text-slate-600 drop-shadow-2xl  hover:text-yellow-400" />
           </Link>
         </div>
-        {/* ----GitHub icon---- */}
-        <div className="flex">
+        ----GitHub icon---- */}
+      {/* <div className="flex">
           <Link href="https://github.com/farnooshmo">
-            <FaGithub className="text-2xl  text-violet-700 drop-shadow-2xl  hover:text-yellow-400 " />
+            <FaGithub className="text-2xl  text-slate-600 drop-shadow-2xl  hover:text-yellow-400 " />
           </Link>
-        </div>
-        {/* ----Email icon---- */}
-        <div className="flex">
+        </div> */}
+      {/* ----Email icon---- */}
+      {/* <div className="flex">
           <Link href="https://formsubmit.co/el/dehuci">
-            <FaEnvelope className="text-2xl text-violet-700 drop-shadow-2xl  hover:text-yellow-400" />
+            <FaEnvelope className="text-2xl text-slate-600 drop-shadow-2xl  hover:text-yellow-400" />
           </Link>
-        </div>
-        {/* ----CV icon---- */}
-        <div className="flex">
+        </div>  */}
+      {/* ----CV icon---- */}
+      {/* <div className="flex">
           <Link href="https://docs.google.com/document/d/1pYgGkQfO4wpeaESmL_OIzRFKdIWbL-ze/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true">
             <FaFile className="text-2xl  text-violet-700 drop-shadow-2xl  hover:text-yellow-400 " />
           </Link>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
       {isMobile ? (
         <button className="p-2 ml-2" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </button>
       ) : (
-        <ul className="flex gap-x-4 ">
+        <ul className="flex gap-x-4">
           {links.map((link) => (
-            <li key={link.title}>
-              <Link href={link.url}>{link.title}</Link>
+            <li
+              key={link.title}
+              className="  text-slate-600 hover:text-slate-800 "
+            >
+              <button className=" hover:underline hover:underline-offset-8    p-2  ">
+                <Link href={link.url}>{link.title}</Link>
+              </button>
             </li>
           ))}
         </ul>
