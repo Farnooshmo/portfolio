@@ -10,7 +10,7 @@ export default function Projects() {
       {/* <!-- Component Start --> */}
       <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 max-w-6xl">
         {/* <!-- project 1--> */}
-        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2">
           <div className="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
@@ -38,7 +38,7 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 2 --> */}
-        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 ">
           <div className="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
@@ -65,7 +65,7 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 3 --> */}
-        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2">
           <div className="h-40 bg-gray-400 rounded-lg ">
             {" "}
             <Image
@@ -93,7 +93,7 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 4 --> */}
-        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2 hover:animate-pulse">
+        <div className="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-yellow-400 rounded-lg p-4 m-2">
           <div className="h-40 bg-gray-400 rounded-lg">
             {" "}
             <Image
