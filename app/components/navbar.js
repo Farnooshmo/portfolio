@@ -2,16 +2,16 @@
 import { useState, useEffect, useRef } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
-import { FaFile } from "react-icons/fa";
 
 const links = [
   // { title: "Home", url: "/" },
   { title: "About me", url: "#about" },
   { title: "Projects", url: "#projects" },
   { title: "Contact", url: "#contact" },
+  {
+    title: "My CV",
+    url: "https://www.canva.com/design/DAF1HkD5Zkg/CSm4KPVivlju-TAP0S3jzQ/view?utm_content=DAF1HkD5Zkg&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+  },
 ];
 
 export default function Navbar() {
@@ -57,34 +57,8 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="bg-gradient-to-r from-stone-600 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  border-double border-2 border-pink-400  text-fuchsia-600  font-bold rounded-md ">
+    <nav className="bg-stone-300 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  font-bold rounded-md ">
       {/* ----Icons on Navbar ---- */}
-      {/* <div className="flex items-center  gap-2 sm:mr-4 md:mr-44"> */}
-      {/* ----LinkedIn icon---- */}
-      {/* <div className="flex">
-          <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
-            <FaLinkedin className="text-2xl text-slate-600 drop-shadow-2xl  hover:text-yellow-400" />
-          </Link>
-        </div>
-        ----GitHub icon---- */}
-      {/* <div className="flex">
-          <Link href="https://github.com/farnooshmo">
-            <FaGithub className="text-2xl  text-slate-600 drop-shadow-2xl  hover:text-yellow-400 " />
-          </Link>
-        </div> */}
-      {/* ----Email icon---- */}
-      {/* <div className="flex">
-          <Link href="https://formsubmit.co/el/dehuci">
-            <FaEnvelope className="text-2xl text-slate-600 drop-shadow-2xl  hover:text-yellow-400" />
-          </Link>
-        </div>  */}
-      {/* ----CV icon---- */}
-      {/* <div className="flex">
-          <Link href="https://docs.google.com/document/d/1pYgGkQfO4wpeaESmL_OIzRFKdIWbL-ze/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true">
-            <FaFile className="text-2xl  text-violet-700 drop-shadow-2xl  hover:text-yellow-400 " />
-          </Link>
-        </div> */}
-      {/* </div> */}
 
       {isMobile ? (
         <button className="p-2 ml-2" onClick={() => setIsOpen(!isOpen)}>
@@ -95,7 +69,7 @@ export default function Navbar() {
           {links.map((link) => (
             <li
               key={link.title}
-              className="  text-slate-600 hover:text-slate-800 "
+              className="  text-slate-600 hover:text-violet-800 "
             >
               <button className=" hover:underline hover:underline-offset-8    p-2  ">
                 <Link href={link.url}>{link.title}</Link>
@@ -112,7 +86,7 @@ export default function Navbar() {
       {isOpen && (
         <ul
           ref={mobileMenuRef}
-          className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-l from-pink-500 to-violet-700  rounded-md shadow-xl  bg-opacity-100 z-40 h-full"
+          className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-r from-pink-700  rounded-md shadow-xl  bg-opacity-100 z-10 h-full"
         >
           {links.map((link) => (
             <li
