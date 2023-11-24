@@ -22,8 +22,8 @@ export default function Projects() {
             />
           </div>
           <div className="flex flex-col items-start mt-4">
-            <h4 className="text-xl font-semibold">Good PR</h4>
-            <p className="text-sm text-red-50">
+            <h4 className="text-xl font-semibold mb-2">Good PR</h4>
+            <p className="text-sm text-red-50 text-justify tracking-tight font-sans">
               The Good PR App is a web application developed using Next.js,
               Prisma and Tailwind CSS. The app is designed to provide users with
               a clear visualisation of the progress and activity of team
@@ -50,8 +50,8 @@ export default function Projects() {
             />
           </div>
           <div className="flex flex-col items-start mt-4">
-            <h4 className="text-xl font-semibold">Video Recommendation</h4>
-            <p className="text-sm text-red-50">
+            <h4 className="text-xl font-semibold mb-2">Video Discovery</h4>
+            <p className="text-sm text-red-50 text-justify tracking-tight font-sans">
               This is an app using React.js, Node.js, and PostgreSQL. It enables
               users to seamlessly view, post, delete, watch, and upvote/downvote
               YouTube videos directly on the app.{" "}
@@ -77,8 +77,8 @@ export default function Projects() {
             />
           </div>
           <div className="flex flex-col items-start mt-4">
-            <h4 className="text-xl font-semibold">Candy Crush</h4>
-            <p className="text-sm text-red-50">
+            <h4 className="text-xl font-semibold mb-2">Candy Crush</h4>
+            <p className="text-sm text-red-50 first-letter:text-justify tracking-tight font-sans text-clip">
               A fun and engaging (desktop) game, suitable for all. With bright,
               colorful graphics, simple gameplay, and multiple levels, it's sure
               to keep you entertained for hours. I utilised React.js, Node.js,
@@ -105,8 +105,8 @@ export default function Projects() {
             />
           </div>
           <div className="flex flex-col items-start mt-4">
-            <h4 className="text-xl font-semibold">E-shop</h4>
-            <p className="text-sm text-red-50">
+            <h4 className="text-xl font-semibold mb-2">E-shop</h4>
+            <p className="text-sm text-red-50 text-justify tracking-tight font-sans">
               An E-commerce website built using React.js and Firebase. Secure,
               fast and easy to use for maximum convenience, use it to shop for
               yourself, friends and family or for running a small business!{" "}
