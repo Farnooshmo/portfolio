@@ -57,7 +57,7 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="bg-stone-300 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  font-bold rounded-md ">
+    <nav className="md:sticky md:top-0 bg-stone-300 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  font-bold rounded-md ">
       {/* ----Icons on Navbar ---- */}
 
       {isMobile ? (
