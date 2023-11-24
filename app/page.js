@@ -47,11 +47,13 @@ export default function Home() {
         {" "}
         My projects
       </span>
-      <FaArrowDown
-        className="text-4xl mt-4 text-rose-300 
-               animate-bounce "
-      />
 
+      {/* ---- ArrowDown--- */}
+      <Link href="#projects">
+        <FaArrowDown
+          className="text-4xl mt-4 text-rose-300 
+               animate-bounce "/>
+      </Link>
       <Projects />
 
       {/* ---- FOOTER ---- */}
