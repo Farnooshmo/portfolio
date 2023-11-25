@@ -14,33 +14,44 @@ export default function Home() {
       {/* ----ABOUT ME ---- */}
       <span className="sr-only">About me</span>
       <div
-        className=" flex flex-col items-center text-center mt-10 font-medium mb-4 text-violet-800 
+        className=" flex flex-col items-center text-center mt-10 font-light mb-10 text-violet-800 text-4xl
         hover:animate-pulse "
         id="about"
       >
+        Farnoosh Moayeri
+      </div>
+      <div className=" flex flex-col items-center text-center">
+        {" "}
         <TextAnimation />
-        Software Engineer
       </div>
-      <div className="flex mb-4 hover:scale-125">
-        <Image
-          src="/farnooshmoayeri.png"
-          width={100}
-          height={100}
-          alt="farnoosh"
-          className="fill-container w-full h-full rounded-full border-dashed"
-        />
+
+      <div className="flex flex-col mb-4 md:flex-row md:flex-wrap justify-around gap-4  border-dashed">
+        <div className="flex flex-col">
+          <Image
+            src="/farnooshmoayeri.png"
+            width={100}
+            height={100}
+            alt="farnoosh"
+            className="fill-container w-full h-full rounded-full border-dashed "
+          />
+        </div>
+        <div className=" flex flex-col items-center text-center  ">
+          <p className=" md:w-1/2 boarder-double border-2 border-red-300 rounded-xl whitespace-normal md:mb-6  p-10 text-base text-center text-zinc-700 hover:underline hover:underline-offset-4">
+            A dynamic, forward-thinking software engineer with experience
+            building full-stack web applications. As a recent graduate of a
+            comprehensive software development training course at
+            <Link
+              href="https://codeyourfuture.io/"
+              className="underline decoration-fuchsia-600 "
+            >
+              {" "}
+              CodeYourFuture
+            </Link>
+            , I am looking to bring my creative mindset and sharp eye for detail
+            to a professional engineering team.
+          </p>
+        </div>
       </div>
-      <p className="  whitespace-normal mb-8 text-base text-center text-zinc-700 hover:resize">
-        A dynamic, forward-thinking software engineer with experience building
-        full-stack web applications. As a recent graduate of a comprehensive
-        software development training course at
-        <Link href="https://codeyourfuture.io/" className="text-fuchsia-600">
-          {" "}
-          CodeYourFuture
-        </Link>
-        , I am looking to bring my creative mindset and sharp eye for detail to
-        a professional engineering team.
-      </p>
       {/* ---- PROJECTS ---- */}
       <span className="sr-only">Projects</span>
       <span className="flex flex-row text-center  text-rose-400 text-2xl">
@@ -52,7 +63,8 @@ export default function Home() {
       <Link href="#projects">
         <FaArrowDown
           className="text-4xl mt-4 text-rose-300 
-               animate-bounce "/>
+               animate-bounce "
+        />
       </Link>
       <Projects />
 
