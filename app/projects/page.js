@@ -38,7 +38,7 @@ export default function Projects() {
               </Link>
               <Link
                 className="flex  p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300 "
-                href="https://good-pr.vercel.app/"
+                href="https://github.com/Farnooshmo/Final-project-good-pr"
               >
                 source code{" "}
               </Link>
@@ -73,7 +73,7 @@ export default function Projects() {
               </Link>
               <Link
                 className="p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
-                href="https://final-project-assessment.netlify.app/"
+                href="https://github.com/Farnooshmo/Full-Stack-Project-Assessment"
               >
                 source code{" "}
               </Link>
@@ -108,7 +108,7 @@ export default function Projects() {
               </Link>
               <Link
                 className="p-2 leading-none rounded   font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
-                href="https://teamwork-candycrush.netlify.app/"
+                href="https://github.com/Farnooshmo/teamwork-candy-crush-react"
               >
                 Source code{" "}
               </Link>
@@ -143,7 +143,7 @@ export default function Projects() {
               </Link>
               <Link
                 className="p-2 leading-none border-solid border border-yellow-300 rounded font-normal mt-3  bg-slate-800 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
-                href="https://london9-amazon-clone-50-react-project.netlify.app/"
+                href="https://github.com/Farnooshmo/team-amazon-clone"
               >
                 source code{" "}
               </Link>
