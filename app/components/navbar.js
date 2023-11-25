@@ -86,7 +86,7 @@ export default function Navbar() {
       {isOpen && (
         <ul
           ref={mobileMenuRef}
-          className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-r from-pink-700  rounded-md shadow-xl  bg-opacity-100 z-10 h-full"
+          className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-r from-slate-700  rounded-md shadow-xl  bg-opacity-100 z-10 h-full"
         >
           {links.map((link) => (
             <li
