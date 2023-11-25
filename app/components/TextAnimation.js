@@ -9,20 +9,20 @@ export default function AnimatedText() {
     setLoaded(true);
   }, []);
 
-  const letters = [" ", "M", "o", "a", "y", "e", "r", "i"];
+  const letters = [" ", "E", "n", "g", "i", "n", "e", "e","r"];
 
   const fadeUp = "translate-y-32 opacity-0";
   const fallDown = "-translate-y-32";
   const duration = "duration-[5s] ease-out";
 
   return (
-    <div className="text-container duration-100 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-violet-00  text-center text-4xl ">
+    <div className="text-container duration-100 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-fuchsia-600  text-center text-2xl font-extralight ">
       <span
         className={`reg-text ${loaded ? "" : fadeUp} ${
           loaded ? "opacity-100" : ""
         }`}
       >
-        Farnoosh
+        Software
       </span>
       {letters.map((letter, index) => (
         <span
