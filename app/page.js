@@ -14,14 +14,14 @@ export default function Home() {
       {/* ----ABOUT ME ---- */}
       <span className="sr-only">About me</span>
       <div
-        className=" flex flex-col items-center text-center mt-6 font-medium mb-4 text-violet-800 
+        className=" flex flex-col items-center text-center mt-10 font-medium mb-4 text-violet-800 
         hover:animate-pulse "
         id="about"
       >
         <TextAnimation />
         Software Engineer
       </div>
-      <div className="flex mb-4">
+      <div className="flex mb-4 hover:scale-125">
         <Image
           src="/farnooshmoayeri.png"
           width={100}
