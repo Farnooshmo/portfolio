@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-stone-300  text-purple-700 scroll-smooth ">
+    <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 bg-stone-300  text-cyan-900 scroll-smooth ">
       {/* ----ABOUT ME ---- */}
       <span className="sr-only">About me</span>
       <div
@@ -36,7 +36,7 @@ export default function Home() {
           />
         </div>
         <div className=" flex flex-col items-center text-center  ">
-          <p className=" md:w-1/2 boarder-double border-2 border-red-300 rounded-xl whitespace-normal md:mb-6  p-10 text-base text-center text-zinc-700 hover:underline hover:underline-offset-4">
+          <p className=" md:w-1/2 boarder-double border-2 border-red-300 rounded-xl whitespace-normal md:mb-6  p-10 text-base text-center text-zinc-900 hover:underline hover:underline-offset-6">
             A dynamic, forward-thinking software engineer with experience
             building full-stack web applications. As a recent graduate of a
             comprehensive software development training course at
@@ -54,12 +54,14 @@ export default function Home() {
       </div>
       {/* ---- PROJECTS ---- */}
       <span className="sr-only">Projects</span>
-      <span className="flex flex-row text-center  text-rose-400 text-2xl">
+      <span className="flex flex-row text-center  text--600 text-2xl">
         {" "}
         My projects
       </span>
 
       {/* ---- ArrowDown--- */}
+      <span className="sr-only"> linked to Projects</span>
+
       <Link href="#projects">
         <FaArrowDown
           className="text-4xl mt-4 text-rose-300 
@@ -69,11 +71,15 @@ export default function Home() {
       <Projects />
 
       {/* ---- FOOTER ---- */}
+      <span className="sr-only"> Contact me via</span>
+
       <footer className="flex flex-col items-center gap-x-2 mb-0">
         <span className="sr-only">Contact me via; LinkedIn, GitHub, Email</span>
         <Contact />
         <div className="flex flex-row justify-center mt-4 ml-2 gap-4">
           {/* ----LinkedIn icon---- */}
+          <span className="sr-only"> Contact me via LinkedIn</span>
+
           <div className="flex">
             <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
               <FaLinkedin
@@ -83,6 +89,8 @@ export default function Home() {
             </Link>
           </div>
           {/* ----GitHub icon---- */}
+          <span className="sr-only"> Contact me via GitHub</span>
+
           <div className="flex">
             <Link href="https://github.com/farnooshmo">
               <FaGithub
@@ -92,6 +100,8 @@ export default function Home() {
             </Link>
           </div>
           {/* ----Email icon---- */}
+          <span className="sr-only"> Contact me via Email</span>
+
           <div className="flex">
             <Link href="https://formsubmit.co/el/dehuci">
               <FaEnvelope
@@ -102,6 +112,7 @@ export default function Home() {
           </div>
         </div>
 
+        <span className="sr-only"> Footer</span>
         <p className=" flex text-xs text-center text-stone-900 mt-8 mb-0 border-t-4 border-pink-400">
           Made by Farnoosh, 2023
         </p>
