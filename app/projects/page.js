@@ -10,9 +10,12 @@ export default function Projects() {
       {/* <!-- Component Start --> */}
       <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 max-w-6xl">
         {/* <!-- project 1--> */}
+        <span className="sr-only"> This project is Good PR</span>
+
         <div className="flex flex-col bg-gradient-to-r  from-slate-700 via-slate-800 to-slate-900 text-pink-600 rounded-lg p-4 m-2">
           <div className="h-40 bg-gray-400 rounded-lg">
             {" "}
+            <span className="sr-only"> Image of landing page of Good PR</span>
             <Image
               src="/goodpr.png"
               width={240}
@@ -31,13 +34,13 @@ export default function Projects() {
             </p>
             <div className="flex flex-row gap-1">
               <Link
-                className="flex  p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300 "
+                className="flex  p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300 "
                 href="https://good-pr.vercel.app/"
               >
                 View project{" "}
               </Link>
               <Link
-                className="flex  p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300 "
+                className="flex  p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300 "
                 href="https://github.com/Farnooshmo/Final-project-good-pr"
               >
                 source code{" "}
@@ -66,13 +69,13 @@ export default function Projects() {
             </p>
             <div className="flex flex-row gap-1">
               <Link
-                className="flex  p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+                className="flex  p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
                 href="https://final-project-assessment.netlify.app/"
               >
                 View project{" "}
               </Link>
               <Link
-                className="p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+                className="p-2 leading-none rounded font-normal mt-3 border-solid border border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase  active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
                 href="https://github.com/Farnooshmo/Full-Stack-Project-Assessment"
               >
                 source code{" "}
@@ -101,13 +104,13 @@ export default function Projects() {
             </p>
             <div className="flex flex-row gap-1">
               <Link
-                className="p-2 leading-none rounded   font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+                className="p-2 leading-none rounded   font-normal mt-3 border-solid border border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
                 href="https://teamwork-candycrush.netlify.app/"
               >
                 View project{" "}
               </Link>
               <Link
-                className="p-2 leading-none rounded   font-normal mt-3 border-solid border border-yellow-200 bg-slate-800 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+                className="p-2 leading-none rounded   font-normal mt-3 border-solid border border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
                 href="https://github.com/Farnooshmo/teamwork-candy-crush-react"
               >
                 Source code{" "}
@@ -136,13 +139,13 @@ export default function Projects() {
             </p>
             <div className="flex flex-row gap-1">
               <Link
-                className="p-2 leading-none border-solid border border-yellow-200 rounded font-normal mt-3  bg-slate-800 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+                className="p-2 leading-none border-solid border  rounded font-normal mt-3 border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
                 href="https://london9-amazon-clone-50-react-project.netlify.app/"
               >
                 View project{" "}
               </Link>
               <Link
-                className="p-2 leading-none border-solid border border-yellow-300 rounded font-normal mt-3  bg-slate-800 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
+                className="p-2 leading-none border-solid border  rounded font-normal mt-3  border-yellow-400 bg-slate-800/50 text-pink-600 text-xs uppercase   active:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-300"
                 href="https://github.com/Farnooshmo/team-amazon-clone"
               >
                 source code{" "}
