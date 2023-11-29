@@ -4,7 +4,6 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
 const links = [
-  // { title: "Home", url: "/" },
   { title: "About me", url: "#about" },
   { title: "Projects", url: "#projects" },
   { title: "Contact", url: "#contact" },
