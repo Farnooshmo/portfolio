@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <div
-      className="flex items-center justify-center w-screen min-h-screen  p-10 "
+      className="z-10 flex items-center justify-center w-screen min-h-screen  p-10 "
       id="projects"
     >
       {/* <!-- Component Start --> */}
