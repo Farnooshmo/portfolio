@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
-
 const links = [
   // { title: "Home", url: "/" },
   { title: "About me", url: "#about" },
@@ -58,7 +57,7 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="md:sticky md:top-0 bg-stone-300 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  font-bold rounded-md ">
+    <nav className="md:sticky z-50 md:top-0 bg-stone-300 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  font-bold rounded-md ">
       {/* ----Icons on Navbar ---- */}
 
       {isMobile ? (
@@ -87,12 +86,12 @@ export default function Navbar() {
       {isOpen && (
         <ul
           ref={mobileMenuRef}
-          className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-r from-slate-700  rounded-md shadow-xl  bg-opacity-100 z-10 h-full"
+          className="fixed top-0 left-0 flex flex-col items-center self-end py-24 bg-gradient-to-r from-slate-700  rounded-md shadow-xl  bg-opacity-100 z-50 h-full"
         >
           {links.map((link) => (
             <li
               key={link.title}
-              className="text-lg font-medium  text-pink-50 underline underline-offset-8 px-6 py-2"
+              className=" text-lg font-medium  text-pink-50 underline underline-offset-8 px-6 py-2"
               onClick={() => setIsOpen(false)}
             >
               <Link href={link.url}>{link.title}</Link>
