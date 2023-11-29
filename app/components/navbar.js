@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
+
 const links = [
   // { title: "Home", url: "/" },
   { title: "About me", url: "#about" },
@@ -62,7 +63,7 @@ export default function Navbar() {
 
       {isMobile ? (
         <button className="p-2 ml-2" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+          {isOpen ? <AiOutlineClose size={40} /> : <AiOutlineMenu size={40} />}
         </button>
       ) : (
         <ul className="flex gap-x-4">
