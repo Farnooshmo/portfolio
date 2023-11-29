@@ -22,7 +22,10 @@ export default function Contact() {
         <span className="sr-only"> Contact me via LinkedIn</span>
 
         <div className="flex">
-          <Link href="https://www.linkedin.com/in/farnooshmoayeri/">
+          <Link
+            href="https://www.linkedin.com/in/farnooshmoayeri/"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin
               className="text-2xl  
                hover:scale-110 "
@@ -33,7 +36,7 @@ export default function Contact() {
         <span className="sr-only"> Contact me via GitHub</span>
 
         <div className="flex">
-          <Link href="https://github.com/farnooshmo">
+          <Link href="https://github.com/farnooshmo" rel="noopener noreferrer">
             <FaGithub
               className="text-2xl
                hover:scale-110"
