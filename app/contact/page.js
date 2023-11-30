@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="z-10  max-w-prose md:w-1/2 boarder-double bg-stone-300 border-2 border-red-300 rounded-xl whitespace-normal md:mb-6  p-4 text-base text-center text-zinc-900">
+    <div className="z-10  max-w-prose md:w-1/2 boarder-double bg-stone-300 border-2 border-red-300 rounded-xl whitespace-normal md:mb-6  p-4 text-base text-center text-zinc-900" id="contact">
       <h1 className=" text-base text-zinc-900 text-md md:text-md text-center">
-        Get in touch! Ask me more about my projects!
+        Get in touch!
       </h1>
 
       <h2
