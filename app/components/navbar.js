@@ -56,7 +56,7 @@ export default function Navbar() {
   const isMobile = windowSize.width < 768;
 
   return (
-    <nav className="md:sticky z-50 md:top-0 bg-stone-300 px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  font-bold rounded-md ">
+    <nav className="md:sticky z-50 md:top-0 bg-[#cbd3cf] px-4 py-3 flex items-center place-content-end sm:gap-4 md:gap-20  font-normal rounded-md ">
       {/* ----Icons on Navbar ---- */}
 
       {isMobile ? (
@@ -68,7 +68,7 @@ export default function Navbar() {
           {links.map((link) => (
             <li
               key={link.title}
-              className="  text-slate-600 hover:text-violet-800 "
+              className="  text-slate-800 hover:scale-110 "
             >
               <button className=" hover:underline hover:underline-offset-8    p-2  ">
                 <Link href={link.url}>{link.title}</Link>
