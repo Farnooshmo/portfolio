@@ -24,7 +24,7 @@ export default function Home() {
       {/* ----ABOUT ME ---- */}
       <span className="sr-only">About me</span>
       <div
-        className="z-10 flex flex-col items-center text-center mt-6 font-normal mb-10 text-slate-800 text-6xl
+        className="z-10 flex flex-col items-center text-center mt-6 font-normal mb-10 text-slate-800 text-3xl md:text-6xl
         hover:animate-pulse "
         id="about"
       >
