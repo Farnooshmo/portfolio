@@ -16,7 +16,7 @@ export default function AnimatedText() {
   const duration = "duration-[5s] ease-out";
 
   return (
-    <div className="text-container duration-400 delay-1000 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-cyan-600  border-solid rounded  text-center text-2xl font-bold p-4 ">
+    <div className="text-container duration-400 delay-1000 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-cyan-800  border-solid rounded  text-center text-2xl font-normal p-4 ">
       <span
         className={`reg-text ${loaded ? "" : fadeUp} ${
           loaded ? "opacity-100" : ""
