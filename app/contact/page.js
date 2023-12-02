@@ -4,20 +4,20 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="z-10  max-w-prose md:w-1/2 boarder-double bg-stone-300 border-2 border-red-300 rounded-xl whitespace-normal md:mb-6  p-4 text-base text-center text-zinc-900" id="contact">
-      <h1 className=" text-base text-zinc-900 text-md md:text-md text-center">
+    <div className="z-10" id="contact">
+      {/* <h1 className=" text-base text-zinc-900 text-md md:text-md text-center">
         Get in touch!
-      </h1>
+      </h1> */}
 
-      <h2
+      {/* <h2
         className=" mt-4
         text-zinc-900 text-md md:text-md text-center"
       >
         farnooshmoayeri@gmail.com
-      </h2>
+      </h2> */}
 
       <span className="sr-only">Contact me via; LinkedIn, GitHub, Email</span>
-      <div className="flex flex-row justify-center mt-4 ml-2 gap-4">
+      <div className="flex flex-row  mt-4 ml-2 gap-4">
         {/* ----LinkedIn icon---- */}
         <span className="sr-only"> Contact me via LinkedIn</span>
 
@@ -27,19 +27,23 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <FaLinkedin
-              className="text-2xl  
-               hover:scale-110 "
+              className="text-3xl  
+               hover:scale-110  text-slate-800"
             />{" "}
           </Link>
         </div>
         {/* ----GitHub icon---- */}
         <span className="sr-only"> Contact me via GitHub</span>
 
-        <div className="flex">
-          <Link href="https://github.com/farnooshmo" rel="noopener noreferrer">
+        <div className="flex ">
+          <Link
+            href="https://github.com/farnooshmo"
+            rel="noopener noreferrer"
+          
+          >
             <FaGithub
-              className="text-2xl
-               hover:scale-110"
+              className="text-3xl text-slate-800
+               hover:scale-110 "
             />
           </Link>
         </div>
