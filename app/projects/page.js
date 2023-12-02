@@ -56,7 +56,7 @@ export default function Projects() {
         </div>
         {/* <!-- project 2 --> */}
         <div className="flex flex-col bg-[#62a5b7]  text-slate-800  rounded-lg p-4 m-2 ">
-          <div className="h-40 bg-gray-400 rounded-lg">
+          <div className="h-40 rounded-lg">
             {" "}
             <Image
               src="/video.png"
@@ -69,9 +69,9 @@ export default function Projects() {
           <div className="flex flex-col items-center mt-4">
             <h4 className="text-xl font-semibold mb-2">Video Discovery</h4>
             <p className="text-sm text-slate-800 text-left tracking-tight font-sans leading-normal">
-              This is an app using React.js, Node.js, and PostgreSQL. It enables
-              users to seamlessly view, post, delete, watch, and upvote or
-              downvote YouTube videos directly on the app.{" "}
+              This is an app using React.js, CSS, Node.js and PostgreSQL. It enables
+              users to seamlessly add, delete, watch and upvote or
+              downvote selected YouTube videos directly on the app. This is my first full-stack app.{" "}
             </p>
             <div className=" flex flex-row gap-4">
               <span className="sr-only">link to video Recommendation app</span>
