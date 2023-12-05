@@ -9,7 +9,7 @@ const links = [
   { title: "Contact", url: "#contact" },
   {
     title: "My CV",
-    url: "https://www.canva.com/design/DAF02KtPOvE/TjmbeZBD5RH640ptGgVaxA/view?utm_content=DAF02KtPOvE&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    url: "https://www.canva.com/design/DAF19vza82E/eXCGGODgxdyl9OQolE5Ocw/view?utm_content=DAF19vza82E&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   },
 ];
 
@@ -66,10 +66,7 @@ export default function Navbar() {
       ) : (
         <ul className="flex gap-x-4">
           {links.map((link) => (
-            <li
-              key={link.title}
-              className="  text-slate-800 hover:scale-110 "
-            >
+            <li key={link.title} className="  text-slate-800 hover:scale-110 ">
               <button className=" hover:underline hover:underline-offset-8    p-2  ">
                 <Link href={link.url}>{link.title}</Link>
               </button>
