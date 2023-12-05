@@ -34,6 +34,16 @@ export default function Projects() {
               a clear visualisation of the progress and activity of team
               members.{" "}
             </p>
+            {/* Throughout the development of this project, I had the opportunity to
+            learn and work with a variety of new technologies and tools. I found
+            the routing in Next.js to be particularly intriguing, and it was an
+            interesting aspect to learn during the development process. In
+            addition, learning how to use Tailwind CSS for UI development
+            provided me with valuable experience and knowledge that I can apply
+            to future projects. Lastly, gaining proficiency in using Prisma for
+            database interactions was another skill that I was able to add to my
+            skill set, and I am excited to continue learning and growing as a
+            developer. */}
             <div className=" flex flex-row gap-4">
               <span className="sr-only">link to Good PR app</span>
 
@@ -69,9 +79,9 @@ export default function Projects() {
           <div className="flex flex-col items-center mt-4">
             <h4 className="text-xl font-semibold mb-2">Video Discovery</h4>
             <p className="text-sm text-slate-800 text-left tracking-tight font-sans leading-normal">
-              This is an app using React.js, CSS, Node.js and PostgreSQL. It enables
-              users to seamlessly add, delete, watch and upvote or
-              downvote selected YouTube videos directly on the app. This is my first full-stack app.{" "}
+              This is an app using React.js, CSS, Node.js and PostgreSQL. It
+              enables users to seamlessly add, delete, watch and vote selected YouTube videos directly on the app. This is my
+              first full-stack app.{" "}
             </p>
             <div className=" flex flex-row gap-4">
               <span className="sr-only">link to video Recommendation app</span>
