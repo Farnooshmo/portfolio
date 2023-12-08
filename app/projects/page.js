@@ -14,16 +14,16 @@ export default function Projects() {
         {/* <!-- project 1--> */}
         <span className="sr-only"> This project is Good PR</span>
 
-        <div className=" flex flex-col bg-[#62a5b7] text-slate-800  rounded-lg p-4 m-2">
+        <div className=" flex flex-col bg-[#62a5b7] text-slate-800 max-w-full rounded-lg p-4 m-2">
           <div className=" h-40 rounded-lg">
             {" "}
             <span className="sr-only"> Image of landing page of Good PR</span>
             <Image
               src="/goodpr.png"
-              width={240}
-              height={120}
+              width={800}
+              height={800}
               alt="Good-PR Project"
-              className="fill-container rounded-lg w-full h-full"
+              className="fill-container rounded-lg object-cover object-left w-full h-full  "
             />
           </div>
           <div className="flex flex-col items-center mt-4">
@@ -65,23 +65,24 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 2 --> */}
-        <div className="flex flex-col bg-[#62a5b7]  text-slate-800  rounded-lg p-4 m-2 ">
+        <div className="flex flex-col bg-[#62a5b7]  text-slate-800 max-w-full rounded-lg p-4 m-2 ">
           <div className="h-40 rounded-lg">
             {" "}
             <Image
               src="/video.png"
-              width={240}
-              height={120}
+              width={800}
+              height={800}
               alt="Video Recommendation"
-              className="fill-container rounded-lg w-full h-full "
+              className="fill-container rounded-lg object-cover object-top w-full h-full "
             />
           </div>
           <div className="flex flex-col items-center mt-4">
             <h4 className="text-xl font-semibold mb-2">Video Discovery</h4>
             <p className="text-sm text-slate-800 text-left tracking-tight font-sans leading-normal">
               This is an app using React.js, CSS, Node.js and PostgreSQL. It
-              enables users to seamlessly add, delete, watch and vote selected YouTube videos directly on the app. This is my
-              first full-stack app.{" "}
+              enables users to seamlessly add, delete, watch and vote selected
+              YouTube videos directly on the app. This is my first full-stack
+              app.{" "}
             </p>
             <div className=" flex flex-row gap-4">
               <span className="sr-only">link to video Recommendation app</span>
@@ -106,15 +107,15 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 3 --> */}
-        <div className="flex flex-col bg-[#62a5b7] text-slate-800  rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-[#62a5b7] text-slate-800  max-w-full rounded-lg p-4 m-2">
           <div className="h-40 rounded-lg ">
             {" "}
             <Image
               src="/candycrush.png"
-              width={240}
-              height={120}
+              width={800}
+              height={800}
               alt="Candy Crush"
-              className="fill-container rounded-lg w-full h-full"
+              className="fill-container rounded-lg object-cover object-bottom w-full h-full"
             />
           </div>
           <div className="flex flex-col items-center mt-4">
@@ -147,15 +148,15 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 4 --> */}
-        <div className="flex flex-col bg-[#62a5b7] text-slate-800  rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-[#62a5b7] text-slate-800 max-w-full rounded-lg p-4 m-2">
           <div className="h-40 rounded-lg">
             {" "}
             <Image
               src="/eshop.png"
-              width={240}
-              height={120}
+              width={800}
+              height={800}
               alt="E-shop"
-              className="fill-container rounded-lg w-full h-full"
+              className="fill-container rounded-lg  object-cover  object-center h-full w-full"
             />
           </div>
           <div className="flex flex-col items-center mt-4">
