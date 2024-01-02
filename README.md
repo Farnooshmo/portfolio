@@ -8,6 +8,10 @@ Welcome to my portfolio app! This project showcases my various projects and serv
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework that helps in building modern designs with ease.
 ## Why Next.js?
 I chose Next.js for this project because I wanted to stay updated with the latest in the Next.js ecosystem. Next.js provides a powerful and flexible environment for building React applications with features like server-side rendering, automatic code splitting, and more. It enables me to create a fast and optimized portfolio that reflects my commitment to using cutting-edge technologies.
+## Why Tailwind CSS?
+Tailwind CSS was selected as the styling framework for this project. Having seen several tutorials, I wanted to build a better relationship with Tailwind CSS and avoid disliking it after just one project. I'm happy to share that through this project, I've developed a stronger understanding and appreciation for Tailwind CSS. It's a utility-first framework that allows for rapid development without sacrificing flexibility. Tailwind CSS complements Next.js well, providing a straightforward way to style components and maintain a consistent design system.
+
+
 
 ## Getting Started
 
