@@ -2,6 +2,11 @@
 
 Welcome to my portfolio app! This project showcases my various projects and serves as a platform to highlight my skills and experiences.
 
+## Technologies Used
+
+- [Next.js](https://nextjs.org/): A React framework for building fast and scalable web applications.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework that helps in building modern designs with ease.
+
 ## Getting Started
 
 First, run the development server:
