@@ -1,5 +1,6 @@
 # Portfolio App
 
+Welcome to my portfolio app! This project showcases my various projects and serves as a platform to highlight my skills and experiences.
 
 ## Getting Started
 
