@@ -1,6 +1,6 @@
 # Portfolio App
 
-Welcome to my portfolio app! This project showcases my various projects and serves as a platform to highlight my skills and experiences. Whether you're a potential employer or a curious developer, feel free to explore my work and learn more about my journey in the world of web development.
+Welcome to my portfolio app! This project showcases my various projects and serves as a platform to highlight my skills and experiences. Whether you're a potential employer or a curious developer, feel free to explore my work and learn more about my journey in the world of web development. The project uses Tailwind CSS version 3.3.3.
 
 ## Technologies Used
 
