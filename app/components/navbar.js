@@ -9,7 +9,7 @@ const links = [
   { title: "Contact", url: "#contact" },
   {
     title: "My CV",
-    url: "https://www.canva.com/design/DAF19vza82E/eXCGGODgxdyl9OQolE5Ocw/view?utm_content=DAF19vza82E&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    url: "https://docs.google.com/document/d/1AFEhbES-pTwZl-3Z5mWsAAunsbATMVbb/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true",
   },
 ];
 
