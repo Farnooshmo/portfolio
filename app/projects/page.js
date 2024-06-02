@@ -99,7 +99,7 @@ export default function Projects() {
               </span>
               <Link
                 className="flex  text-slate-800  rounded  mt-3  text-xs uppercase   focus:outline-none focus:ring focus:ring-pink-300 "
-                href="https://github.com/Farnooshmo/Full-Stack-Project-Assessment"
+                href="https://github.com/Farnooshmo/movie"
               >
                 <FaGithubSquare className=" text-3xl" />
               </Link>
