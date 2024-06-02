@@ -89,7 +89,7 @@ export default function Projects() {
 
               <Link
                 className="flex  text-slate-800 rounded  mt-4  text-xs uppercase   focus:outline-none focus:ring focus:ring-pink-300"
-                href="https://final-project-assessment.netlify.app/"
+                href="https://movie-farnoosh.netlify.app/"
               >
                 <FaArrowUpRightFromSquare className=" text-2xl " />
               </Link>
