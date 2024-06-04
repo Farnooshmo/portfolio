@@ -69,7 +69,7 @@ export default function Projects() {
           <div className="h-40 rounded-lg">
             {" "}
             <Image
-              src="/video.png"
+              src="/recommendation.png"
               width={800}
               height={800}
               alt="Video Recommendation"
