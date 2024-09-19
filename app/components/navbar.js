@@ -9,7 +9,7 @@ const links = [
   { title: "Contact", url: "#contact" },
   {
     title: "My CV",
-    url: "https://docs.google.com/document/d/1AFEhbES-pTwZl-3Z5mWsAAunsbATMVbb/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true",
+    url: "https://docs.google.com/document/d/1ra9Hq5x6YzKTEynuhARds8nq7bhpbu8W/edit?usp=sharing&ouid=107146459050970629203&rtpof=true&sd=true",
   },
 ];
 
