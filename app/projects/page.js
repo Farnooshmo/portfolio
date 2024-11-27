@@ -49,7 +49,7 @@ export default function Projects() {
 
               <Link
                 className="flex  text-slate-800 rounded  mt-4  text-xs uppercase  focus:outline-none focus:ring focus:ring-pink-300 "
-                href="https://good-pr.vercel.app/"
+                href="https://goodpr.codeyourfuture.io/"
               >
                 <FaArrowUpRightFromSquare className=" text-2xl" />
               </Link>
