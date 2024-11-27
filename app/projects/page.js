@@ -14,7 +14,7 @@ export default function Projects() {
         {/* <!-- project 1--> */}
         <span className="sr-only"> This project is Good PR</span>
 
-        <div className=" flex flex-col bg-[#62a5b7] text-slate-800 max-w-full rounded-lg p-4 m-2">
+        <div className=" flex flex-col bg-[#dde9ed] text-slate-800 max-w-full rounded-lg p-4 m-2">
           <div className=" h-40 rounded-lg">
             {" "}
             <span className="sr-only"> Image of landing page of Good PR</span>
@@ -65,7 +65,7 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 2 --> */}
-        <div className="flex flex-col bg-[#62a5b7]  text-slate-800 max-w-full rounded-lg p-4 m-2 ">
+        <div className="flex flex-col bg-[#dde9ed]  text-slate-800 max-w-full rounded-lg p-4 m-2 ">
           <div className="h-40 rounded-lg">
             {" "}
             <Image
@@ -107,7 +107,7 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 3 --> */}
-        <div className="flex flex-col bg-[#62a5b7] text-slate-800  max-w-full rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-[#dde9ed] text-slate-800  max-w-full rounded-lg p-4 m-2">
           <div className="h-40 rounded-lg ">
             {" "}
             <Image
@@ -148,7 +148,7 @@ export default function Projects() {
           </div>
         </div>
         {/* <!-- project 4 --> */}
-        <div className="flex flex-col bg-[#62a5b7] text-slate-800 max-w-full rounded-lg p-4 m-2">
+        <div className="flex flex-col bg-[#dde9ed] text-slate-800 max-w-full rounded-lg p-4 m-2">
           <div className="h-40 rounded-lg">
             {" "}
             <Image
